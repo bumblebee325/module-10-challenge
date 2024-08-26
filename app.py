@@ -95,7 +95,7 @@ def stats(start=None, end=None):
     filter(Measurement.date <= end).all()
     print(start)
     print(end)
-    priont(results)
+    print(results)
 
     session.close()
 
